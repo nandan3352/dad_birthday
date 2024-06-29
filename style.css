@@ -1,0 +1,70 @@
+* {box-sizing:border-box}
+body{
+    background-image: url("https://img.freepik.com/free-psd/balloon-birthday-greeting-template-psd-pink-gold-tone_53876-138582.jpg?size=338&ext=jpg&ga=GA1.1.1141335507.1719360000&semt=ais_user");
+    background-repeat: repeat;
+    
+    }
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+image{
+    opacity:1;
+}
+.mySlides {
+  display: none;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.xxx{
+   display:flex;
+   text-align:center; 
+   /* gap:450px; */
+   gap:20px
+   /* justify-content:space-between */
+}
+.next1{
+    cursor: pointer;
+    /* background-color:black; */
+}
+.prev1{
+    cursor: pointer;
+    /* background-color:black; */
+}
+
+.prev1:hover, .next1:hover {
+    background-color: rgba(0,0,0,0.5);
+  }
+  /* .xyz{
+        width: 300px;
+        border: 15px solid orange;
+        padding: 25px;
+        margin: 30px;
+  } */
+
+  /* .xyz {
+    display:flex;
+    /* border: 10px solid orange;
+    text-align: center;
+    align-self:center */
+/* align-items:center;
+  } */
+
+  .abc{
+    display:flex;
+    flex-direction:column;
+    /* align-items:center;
+justify-content:center; */
+  }
